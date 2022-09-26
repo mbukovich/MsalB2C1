@@ -1,0 +1,17 @@
+{
+  "client_id": "<Client ID Here>",
+  "authorization_user_agent": "WEBVIEW",
+  "redirect_uri": "<Redirect URI Here>",
+  "broker_redirect_uri_registered" : false,
+  "authorities": [
+    {
+      "type": "B2C",
+      "authority_url": "https://<b2c-tenant-name>.b2clogin.com/<b2c-tenant-name>.onmicrosoft.com/<b2c-policy-name>/",
+      "default": true
+    }
+  ],
+  "logging" : {
+    "log_level" : "VERBOSE",
+    "logcat_enabled" : true
+  }
+}
